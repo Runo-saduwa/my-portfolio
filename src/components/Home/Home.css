@@ -1,0 +1,56 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 40vh;
+    border-bottom: solid 10px var(--color);
+}
+.HeaderContainer {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 200px;
+}
+.emoji {
+    width:25px;
+    margin-bottom: -2px;
+}
+.MyImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+.highlight {
+    color: var(--color)
+}
+.Intro {
+    font-size: 1.5rem;
+    font-family: "Open sans";
+    font-weight: 800;
+    color: var(--iconColor);
+}
+
+.IntroWords {
+    color: var(--iconColor);
+    font-size:0.8rem;
+    font-family: "Open sans";
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+.SocialIcons a i {
+    font-size: 25px;
+}
+.SocialIcons a {
+    text-decoration: none;
+    color: var(--iconColor);
+    margin: 0 10px;
+    transition: 0.25 ease-out;
+}
+.SocialIcons a:hover {
+    text-decoration: none;
+    color: var(--transColor);
+    margin: 0 10px;
+}

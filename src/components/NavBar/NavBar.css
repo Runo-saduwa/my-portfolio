@@ -1,0 +1,57 @@
+.NavBar {
+    width: 100%;
+}
+.NavContainer {
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: center;
+
+}
+.NavList {
+    margin: 0;
+    padding:0;
+}
+
+.NavList .NavItem {
+    list-style-type: none;
+    margin: 15px 0 0 0;
+}
+
+.NavItem .NavLink {
+    text-decoration: none;
+    color: var(--link);
+    text-transform: capitalize;
+    font-family: "Open sans";
+    font-weight: 700;
+    transition: 0.25s ease-out;
+}
+
+.NavItem .NavLink:hover {
+    color: var(--transColor);
+}
+
+.NavButton {
+  background: #fff;
+  border: none;
+}
+.NavButton .NavIcon {
+    font-size: 25px;
+}
+
+.hide {
+    display: none;
+}
+
+@media (min-width: 700px) {
+    .NavButton {
+        display: none;
+    }
+    .NavList .NavItem {
+       display: inline-block;
+        margin: 15px 22px;
+    }
+    .hide {
+        display: block;
+    }
+    
+}
