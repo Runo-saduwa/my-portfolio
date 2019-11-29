@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import {Link} from 'react-router-dom';
 import './NavBar.css';
 
 const NavBar = () => {
@@ -14,19 +15,19 @@ const NavBar = () => {
                 </button>
           <ul className={`${state ? null : "hide"} NavList`}>
                     <li className="NavItem">
-                        <a href="#home" className="NavLink">
+                        <Link to="/home" className="NavLink">
                             home
-                        </a>
+                        </Link>
                     </li>
                     <li className="NavItem">
-                        <a href="#home" className="NavLink">
+                        <Link to="/portfolio" className="NavLink">
                             projects
-                        </a>
+                        </Link>
                     </li>
                     <li className="NavItem">
-                        <a href="#home" className="NavLink">
+                        <Link to="/about" className="NavLink">
                             about me
-                        </a>
+                        </Link>
                     </li>
                     <li className="NavItem">
                         <a href="#home" className="NavLink">

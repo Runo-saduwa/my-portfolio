@@ -21,7 +21,7 @@ header {
     width: 100px;
     height: 100px;
     border-radius: 100%;
-    margin-top: 20px;
+
 }
 .highlight {
     color: var(--color)
@@ -37,12 +37,13 @@ header {
     color: var(--iconColor);
     font-size:0.8rem;
     font-family: "Open sans";
+    line-height: 1.5;
     font-weight: 600;
     margin: 30px 0;
   
 }
 .SocialIcons {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .SocialIcons a i {
     font-size: 25px;
