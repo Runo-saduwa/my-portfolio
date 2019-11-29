@@ -15,7 +15,7 @@ const NavBar = () => {
                 </button>
           <ul className={`${state ? null : "hide"} NavList`}>
                     <li className="NavItem">
-                        <Link to="/home" className="NavLink">
+                        <Link to="/" className="NavLink">
                             home
                         </Link>
                     </li>
