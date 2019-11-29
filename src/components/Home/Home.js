@@ -10,7 +10,10 @@ const Home = () => {
             <div className="HeaderContainer">
                 <img className="MyImg" src={MyImg} alt="my passport"/>
                 <h1 className="Intro">Hello <img className="emoji" src={world} alt="world emoji"/>, I'm <span className="highlight">Runo Saduwa</span>.</h1>
-                <p className="IntroWords">Software Developer seeking job, ready to learn</p>
+                <p className="IntroWords">
+                    A Fullstack Software Engineer based in Nigeria. I use React and Node.js to bring ideas to life.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nisi illo assumenda nulla, maiores quasi aut possimus provident illum ut!
+                     </p>
                 <div className="SocialIcons">
                  <a href="#github"><i className="fab fa-github"></i></a>
                  <a href="#github"><i className="fab fa-linkedin"></i></a>

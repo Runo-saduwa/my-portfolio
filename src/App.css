@@ -4,7 +4,11 @@ html, body {
   overflow-x: hidden;
   box-sizing: border-box;
 }
+.App {
+  border-top: solid 10px var(--color);
+   background: var(--bg);
 
+}
 :root {
   --color: #0480F1;
   --transColor: rgb(4,128,241);

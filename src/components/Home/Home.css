@@ -1,24 +1,25 @@
 header {
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 100%;
-    min-height: 40vh;
-    border-bottom: solid 10px var(--color);
+    height: 85vh;
+    overflow: hidden;
+    background: var(--bg);
+ 
 }
 .HeaderContainer {
+    padding-top: 50px;
     width: 90%;
     margin: 0 auto;
     text-align: center;
-    padding-bottom: 200px;
 }
 .emoji {
     width:25px;
     margin-bottom: -2px;
 }
 .MyImg {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     border-radius: 100%;
     margin-top: 20px;
 }
@@ -38,8 +39,11 @@ header {
     font-family: "Open sans";
     font-weight: 600;
     margin: 30px 0;
+  
 }
-
+.SocialIcons {
+    margin-top: 100px;
+}
 .SocialIcons a i {
     font-size: 25px;
 }
@@ -53,4 +57,11 @@ header {
     text-decoration: none;
     color: var(--transColor);
     margin: 0 10px;
+}
+
+@media (min-width: 700px) {
+    .IntroWords {
+        width: 50%;
+        margin: 0 auto;
+    }
 }
