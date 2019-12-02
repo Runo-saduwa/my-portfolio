@@ -21,20 +21,23 @@
 
 .NavItem .NavLink {
     text-decoration: none;
-    color: var(--link);
     text-transform: capitalize;
+    color: var(--link);
     font-family: "Open sans";
     font-weight: 700;
     transition: 0.25s ease-out;
 }
 
+
+
 .NavItem .NavLink:hover {
     color: var(--transColor);
 }
 
+
 .NavButton {
     
-  background: #fff;
+  background:transparent;
   border: none;
 }
 .NavButton .NavIcon {
@@ -44,6 +47,15 @@
 .hide {
     display: none;
 }
+
+.NavItem .NavLink.darkMode {
+    color: #fff;
+}
+
+.NavButton.darkMode {
+    color: white;
+}
+
 
 @media (min-width: 700px) {
     .NavButton {

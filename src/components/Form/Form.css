@@ -1,0 +1,62 @@
+.contactFormSection {
+    width: 80%;
+    margin: 0 auto;
+}
+.contactFormSection h3, p {
+ text-align: center;
+}
+.contactFormSection h3 {
+ color: var(--color);
+ font-weight: 800;
+}
+
+form .inputContainer input {
+    width: 100%;
+    box-sizing: border-box;
+    margin:0;
+    padding: 10px 10px;
+    border: none;
+    border: solid 1px black;
+    font-family: "Open sans";
+    font-weight: 600;
+
+}
+.inputContainer {
+    margin: 15px 0;
+}
+form .inputContainer textarea {
+    font-family: "Open sans";
+    font-weight: 600;
+    width: 100%;
+    margin: 0;
+    padding:10px 10px;
+    border: none;
+    border: solid 1px black;
+    box-sizing: border-box;
+}
+form button {
+    width: 100%;
+    margin: 0;
+    padding:0;
+    border: none;
+    padding: 10px 0;
+    font-size: 1rem;
+    font-family: "Open sans";
+    font-weight: 800;
+    background: var(--link);
+    color: #fff;
+}
+
+form button.darkMode {
+    background: var(--color);
+}
+.contactFormSection p.darkMode {
+  color: #fff;
+}
+
+@media (min-width: 700px) {
+    .contactFormSection {
+        width: 50%;
+        margin: 0 auto;
+    }
+}

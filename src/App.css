@@ -3,13 +3,24 @@ html, body {
   margin: 0;
   overflow-x: hidden;
   box-sizing: border-box;
+  font-family: "Open sans";
 }
 .App {
- 
+  height: 100vh;
+  overflow-y: scroll;
    background: var(--bg);
 
 }
+
+.App.darkMode {
+  background: var(--darkMode);
+}
+
+.defaultColor {
+  color: var(--link);
+}
 :root {
+  --darkMode: #1B2331;
   --color: #0480F1;
   --transColor: rgb(4,128,241);
   --iconColor: #3C3C3C;
