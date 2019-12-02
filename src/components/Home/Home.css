@@ -1,15 +1,16 @@
 header {
     display: flex;
-    justify-content: center;
+    /* justify-content: flex-start; */
+    align-content: center;
     width: 100%;
-    height: 85vh;
+    height: 70vh;
     overflow: hidden;
     background: var(--bg);
  
 }
 .HeaderContainer {
-    padding-top: 50px;
     width: 90%;
+  
     margin: 0 auto;
     text-align: center;
 }
@@ -31,6 +32,7 @@ header {
     font-family: "Open sans";
     font-weight: 800;
     color: var(--iconColor);
+    margin: 10px 0;
 }
 
 .IntroWords {
@@ -39,11 +41,10 @@ header {
     font-family: "Open sans";
     line-height: 1.5;
     font-weight: 600;
-    margin: 30px 0;
   
 }
 .SocialIcons {
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .SocialIcons a i {
     font-size: 25px;
@@ -65,4 +66,50 @@ header {
         width: 50%;
         margin: 0 auto;
     }
+
+    .emoji {
+        width:35px;
+        margin-bottom: -5px;
+    }
+    .MyImg {
+        width: 150px;
+        height: 150px;
+    }
+    .highlight {
+        color: var(--color)
+    }
+    .Intro {
+        font-size: 2.0rem;
+        font-family: "Open sans";
+        font-weight: 800;
+        color: var(--iconColor);
+        margin: 10px 0;
+    }
+    
+    .IntroWords {
+        color: var(--iconColor);
+        font-size:1.0rem;
+        font-family: "Open sans";
+        line-height: 1.5;
+        font-weight: 600;
+      
+    }
+    .SocialIcons {
+        margin-top: 100px;
+    }
+    .SocialIcons a i {
+        font-size: 30px;
+    }
+    .SocialIcons a {
+        text-decoration: none;
+        color: var(--iconColor);
+        margin: 0 10px;
+        transition: 0.25 ease-out;
+    }
+    .SocialIcons a:hover {
+        text-decoration: none;
+        color: var(--transColor);
+        margin: 0 10px;
+    }
+    
 }

@@ -5,7 +5,7 @@ html, body {
   box-sizing: border-box;
 }
 .App {
-  border-top: solid 10px var(--color);
+ 
    background: var(--bg);
 
 }
