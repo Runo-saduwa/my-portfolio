@@ -26,8 +26,8 @@
     font-weight: 600;
 }
 .imgBox {
-    padding: 20px 10px;
-    background: var(--projectCard);
+    padding: 0px 0px;
+    /* background: var(--projectCard); */
 }
 .card img {
     width: 100%;
@@ -37,7 +37,7 @@
 @media (min-width: 700px) {
     .card {
         width: 100%;
-        background: var(--projectCard);
+        /* background: var(--projectCard); */
         text-align: center;
     }
     .card img {

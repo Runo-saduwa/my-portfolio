@@ -6,6 +6,8 @@ html, body {
   font-family: "Open sans";
 }
 .App {
+  height: 100vh;
+  overflow-y: scroll;
    background: var(--bg);
 
 }

@@ -1,0 +1,8 @@
+footer {
+    height: 10vh;
+}
+
+.footerContainer p {
+    color: #fff;
+    letter-spacing: 5px;
+}

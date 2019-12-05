@@ -8,6 +8,7 @@ import NavBar from './components/NavBar/NavBar';
 import Home from './components/Home/Home';
 import Portfolio from './components/Portfolio/Portfolio';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 
 const App = (props) => {
@@ -25,7 +26,9 @@ const App = (props) => {
 						<Route exact path="/portfolio" component={Portfolio} />
 						<Route exact path="/about" component={Contact} />
 					</Switch>
+					<Footer/>
 				</div>
+
 			</Router>
 
 	);

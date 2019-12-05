@@ -1,0 +1,142 @@
+
+.timeline-content p {
+  font-weight: 300;
+}
+
+.timeline-content a {
+  color: #6c6d6d;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  font-size: 6em;
+  font-weight: 400;
+  background: #252727;
+  padding: 0.3rem 1rem;
+  margin: 1.9rem 0 0 0;
+  float: right;
+}
+
+.timeline-content a:hover {
+  color: white;
+  background: var(--color);
+  border-bottom: 0.35em solid black;
+}
+
+.timeline-content strong {
+  font-weight: 600;
+}
+
+.timeline-content h1.speaking-header {
+  font-family: "Open sans", sans-serif;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  color: white;
+  font-size: 1.4em;
+  text-align: center;
+}
+
+#timeline-content {
+  margin-top: 50px;
+  
+}
+
+/* Timeline */
+.timeline {
+  border-left: 4px solid var(--color);
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  background: #2B2E2D;
+  color: white;
+  
+  font-family: "Open Sans", sans-serif;
+  margin: 50px auto;
+  letter-spacing: 0.5px;
+  position: relative;
+  line-height: 1.4em;
+  font-size: 1.03em;
+  padding: 50px;
+  list-style: none;
+  text-align: left;
+  font-weight: 100;
+  width: 50%;
+}
+.timeline h1 {
+  letter-spacing: 1.5px;
+  font-weight: 100;
+  font-size: 1em;
+}
+ .timeline h3 {
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  font-size: 1.1em;
+  
+}
+.timeline .mobile-date {
+  color: var(--heroText);
+  font-size: 0.9rem;
+}
+.timeline .event {
+  border-bottom: 1px dashed lightgray;
+  padding-bottom: 25px;
+  margin-bottom: 50px;
+  position: relative; 
+}
+.timeline .event p{
+ text-align: left;
+ font-size: 0.9rem;
+}
+.timeline .event:last-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+.timeline .event:before, .timeline .event:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+.timeline .event:before {
+  display: none;
+  left: -240.5px;
+  color: white;
+  content: attr(data-date);
+  text-align: right;
+  font-weight: 100;
+  font-size: 0.9em;
+  min-width: 120px;
+  font-family: "Open sans", sans-serif;
+}
+.timeline .event:after {
+  box-shadow: 0 0 0 4px var(--color);
+  left: -57.85px;
+  background: #313534;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
+  top: 5px;
+}
+
+
+
+@media (min-width: 700px) {
+ .timeline {
+   width: 40%;
+ }
+ .timeline h1 {
+  letter-spacing: 1.5px;
+  font-weight: 100;
+  font-size: 1.4em;
+}
+
+.timeline .event:before {
+  display: block;
+}
+
+.mobile-date {
+  display: none;
+}
+
+
+
+}

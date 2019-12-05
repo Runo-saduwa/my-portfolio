@@ -1,13 +1,17 @@
 import React, { useContext } from 'react';
+import Timeline from '../Timeline/Timeline';
 import './Home.css';
+
 import { themeContext } from '../../Context';
 import MyImg from '../../images/passport.jpeg';
 import world from '../../images/world.png';
 
-const Home = () => {
+
+const Home = (props) => {
 	const { darkMode } = useContext(themeContext);
 
 	return (
+		<>
 		<header>
 			<div className="HeaderContainer">
 				<img className="MyImg" src={MyImg} alt="my passport" />
@@ -36,6 +40,8 @@ const Home = () => {
 				</div>
 			</div>
 		</header>
+        <Timeline/>
+		</>
 	);
 };
 

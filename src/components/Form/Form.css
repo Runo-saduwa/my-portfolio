@@ -19,6 +19,13 @@ form .inputContainer input {
     border: solid 1px black;
     font-family: "Open sans";
     font-weight: 600;
+    outline: none;
+
+}
+form .inputContainer input:focus {
+
+    border: solid 2px var(--color);
+
 
 }
 .inputContainer {
