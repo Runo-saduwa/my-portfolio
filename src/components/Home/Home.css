@@ -43,7 +43,7 @@ header {
   
 }
 .SocialIcons {
-    margin-top: 100px;
+    margin-top: 90px;
 }
 .SocialIcons a i {
     font-size: 25px;
@@ -72,9 +72,10 @@ header {
      color: white;
  }
 
+
 @media (min-width: 700px) {
     .IntroWords {
-        width: 50%;
+        width: 70%;
         margin: 0 auto;
     }
 
@@ -123,4 +124,11 @@ header {
         margin: 0 10px;
     }
     
+}
+
+@media (min-width: 900px) {
+    .IntroWords {
+        width: 50%;
+        margin: 0 auto;
+    }
 }
