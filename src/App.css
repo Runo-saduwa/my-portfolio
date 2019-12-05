@@ -1,15 +1,16 @@
 html, body {
   padding: 0;
   margin: 0;
+  width: 100%;
   overflow-x: hidden;
   box-sizing: border-box;
   font-family: "Open sans";
+
+
 }
 .App {
-  height: 100vh;
-  overflow-y: scroll;
-   background: var(--bg);
 
+   background: var(--bg);
 }
 
 .App.darkMode {
