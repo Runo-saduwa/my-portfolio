@@ -20,9 +20,7 @@ const Home = (props) => {
 					<span className="highlight">Runo Saduwa</span>.
 				</h1>
 				<p className={`IntroWords ${darkMode ? 'darkMode' : null}`}>
-					A Fullstack Software Engineer based in Nigeria. I use React and Node.js to bring ideas to life.
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nisi illo assumenda nulla, maiores
-					quasi aut possimus provident illum ut!
+				A fullstack software engineer based in Nigeria. I solve problems in style using cutting edge web technologies, while doing this I adhere to industry standards, maintain best practices and manage time effectively. I use every slight opportunity to give back to the community by speaking in conferences and or through technical articles via my personal blog.
 				</p>
 				<div className={`SocialIcons`}>
 					<a className={`${darkMode ? 'darkMode' : null}`} href="https://github.com/Runo-saduwa">

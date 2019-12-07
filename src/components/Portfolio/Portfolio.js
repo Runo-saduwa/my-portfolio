@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import Card from '../Card/Card';
 import './Portfolio.css';
-import {data} from '../../projects';
+import {projects} from '../../projects';
 
 
 const Portfolio = () => {
@@ -9,10 +9,20 @@ const Portfolio = () => {
     return (
      <section className="portfolio">
          <div className="portfolioContainer">
-         <Card/>
-         <Card/>
-         <Card/>
-         <Card/>
+           {projects.map(project => {
+               return (
+                  <Fragment key={project.id}>
+                       <Card
+                   title={project.title}
+                   description={project.desc}
+                   img={project.img}  
+                   link={project.link}
+                   code={project.code}
+                   alt={project.title}
+                   />
+                  </Fragment>
+               )
+           })}
          </div>
      </section>
     )
