@@ -45,9 +45,6 @@ export const projects = [
         desc: "A documention website for an opensource MVC PHP Framework"
 
     }
-    
-  
-
 ]
 
 
