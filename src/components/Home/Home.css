@@ -14,10 +14,11 @@ header {
     text-align: center;
 }
 .emoji {
-    width:25px;
+    width:18px;
     margin-bottom: -2px;
 }
 .MyImg {
+  
     width: 100px;
     height: 100px;
     border-radius: 100%;
@@ -32,21 +33,23 @@ header {
     font-weight: 800;
     color: var(--iconColor);
     margin: 10px 0;
+  
 }
 
 .IntroWords {
     color: var(--iconColor);
-    font-size:0.71rem;
+    font-size:0.79rem;
     font-family: "Open sans";
-    line-height: 1.5;
+    line-height: 1.6;
     font-weight: 600;
+    
   
 }
 .SocialIcons {
     margin-top: 90px;
 }
 .SocialIcons a i {
-    font-size: 25px;
+    font-size: 20px;
 }
 .SocialIcons a {
     text-decoration: none;

@@ -18,8 +18,8 @@
 .NavList .NavItem {
     list-style-type: none;
     margin: 15px 0 0 0;
+    font-size: 0.85rem;
 }
-
 .NavItem .NavLink {
     text-decoration: none;
     text-transform: capitalize;
@@ -55,7 +55,7 @@
   border: none;
 }
 .NavButton .NavIcon {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .hide {
