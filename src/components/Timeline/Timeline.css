@@ -1,5 +1,5 @@
 .timeline-content p {
-	font-weight: 300;
+	font-weight: 400;
 }
 
 .timeline-content a {
@@ -30,7 +30,7 @@
 	font-weight: 800;
 	letter-spacing: 1.5px;
 	color: var(--color);
-	font-size: 1.4em;
+	font-size: 1.1em;
 	text-align: center;
 }
 
@@ -59,14 +59,14 @@
 	width: 50%;
 }
 .timeline h1 {
-	letter-spacing: 1.5px;
+	letter-spacing: 1.2px;
 	font-weight: 100;
 	font-size: 1em;
 }
 .timeline h3 {
-	letter-spacing: 1.5px;
+	letter-spacing: 1px;
 	font-weight: 700;
-	font-size: 1.1em;
+	font-size: 1em;
 }
 .timeline .mobile-date {
 	color: var(--heroText);
@@ -80,7 +80,7 @@
 }
 .timeline .event p {
 	text-align: left;
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 }
 .timeline .event:last-of-type {
 	padding-bottom: 0;
@@ -134,5 +134,14 @@
 
 	.mobile-date {
 		display: none;
-	}
+  }
+  
+  
+.timeline-content h1.speaking-header {
+
+
+	font-size: 1.5em;
+
+}
+
 }
