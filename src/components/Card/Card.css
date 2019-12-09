@@ -11,15 +11,17 @@
     font-weight: 800;
 }
 
-.card p {
+.card p  {
     margin: 10px 0;
     font-weight: 400;
-    color: #fff;
+}
+.card p .darkMode {
+    color: var(--iconColor);
 }
 
 .imgBox {
     padding: 0px 0px;
-    /* background: var(--projectCard); */
+
 }
 .card img {
     width: 100%;
@@ -45,6 +47,7 @@
      color: var(--color);
     
 }
+
 
 @media (min-width: 700px) {
     .card {

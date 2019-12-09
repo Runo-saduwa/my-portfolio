@@ -27,10 +27,23 @@
     font-weight: 700;
     transition: 0.25s ease-out;
 }
+.NavItem .NavLink:hover{
+   color: var(--transColor);
+}
+.NavItem .darkMode{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--link);
+    font-family: "Open sans";
+    font-weight: 700;
+    transition: 0.25s ease-out;
+    color: #fff;
+    
+}
 
 
 
-.NavItem .NavLink:hover {
+.NavItem .darkMode:hover {
     color: var(--transColor);
 }
 
@@ -48,12 +61,11 @@
     display: none;
 }
 
-.NavItem .NavLink.darkMode {
-    color: #fff;
-}
-
 .NavButton.darkMode {
     color: white;
+}
+.NavButton.darkMode:hover {
+    color: var(--color);
 }
 .darkModeBtn {
     padding: 5px 5px;

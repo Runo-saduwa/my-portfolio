@@ -20,7 +20,7 @@ const Home = (props) => {
 					<span className="highlight">Runo Saduwa</span>.
 				</h1>
 				<p className={`IntroWords ${darkMode ? 'darkMode' : null}`}>
-				A Fullstack Software Developer based in Nigeria. I solve problems in style using cutting edge web technologies, while doing this I adhere to industry standards, maintain best practices and manage time effectively. I use every slight opportunity to give back to the community by speaking in conferences and writing technical articles on my personal blog.
+				A Fullstack Software Developer based in Nigeria. I solve problems in style using cutting edge web technologies which include but are not limited to React, Expressjs, Nodejs, and SQL/NoSQL databases, while doing these I adhere to industry standards. I use every slight opportunity to give back to the community by speaking at conferences and writing technical articles on my personal blog.
 				</p>
 				<div className={`SocialIcons`}>
 					<a className={`${darkMode ? 'darkMode' : null}`} href="https://github.com/Runo-saduwa">

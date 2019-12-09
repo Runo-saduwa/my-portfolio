@@ -3,7 +3,9 @@ export const projects = [
         id:"2",
         title:"Squad - Project Management Software",
         img: "https://res.cloudinary.com/daaubcml6/image/upload/e_sharpen:100,q_auto:best/v1575654576/smartmockups_k3uf35s1_ee4qj4.png",
-        desc: "A robust and feature rich project management tool"
+        desc: "A robust and feature rich project management tool",
+        link: "https://squad-v1.netlify.com/",
+        code: "https://github.com/Runo-saduwa/squad"
     },
     {
         id:"1",

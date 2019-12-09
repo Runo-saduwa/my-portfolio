@@ -24,25 +24,25 @@ const NavBar = () => {
 						</button>
 					</li>
 					<li className="NavItem">
-						<Link to="/" className={`NavLink ${darkMode ? 'darkMode' : null}`}>
+						<Link to="/" className={`${darkMode ? 'darkMode' : 'NavLink'}`}>
 							home
 						</Link>
 					</li>
 					<li className="NavItem">
-						<Link to="/portfolio" className={`NavLink ${darkMode ? 'darkMode' : null}`}>
+						<Link to="/portfolio" className={`${darkMode ? 'darkMode' : 'NavLink'}`}>
 							projects
 						</Link>
 					</li>
 					<li className="NavItem">
-						<Link to="/about" className={`NavLink ${darkMode ? 'darkMode' : null}`}>
-							about me
+						<Link to="/about" className={`${darkMode ? 'darkMode' : 'NavLink'}`}>
+							contact me
 						</Link>
 					</li>
-					<li className="NavItem">
+					{/* <li className="NavItem">
 						<a href="#home" className={`NavLink ${darkMode ? 'darkMode' : null}`}>
 							resume
 						</a>
-					</li>
+					</li> */}
 				</ul>
 			</div>
 		</nav>

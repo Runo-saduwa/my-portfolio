@@ -6,6 +6,14 @@ footer {
 }
 
 .footerContainer p {
-    color: #fff;
+  
     letter-spacing: 5px;
+}
+
+
+.footerTxt  {
+    color: var(--iconColor);
+}
+ .darkMode {
+    color: #fff;
 }
