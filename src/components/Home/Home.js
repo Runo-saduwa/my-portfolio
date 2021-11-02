@@ -3,6 +3,7 @@ import Timeline from "../Timeline/Timeline";
 import "./Home.css";
 
 import { themeContext } from "../../Context";
+import Resume from "../Resume/Resume";
 
 const world =
   "https://res.cloudinary.com/daaubcml6/image/upload/e_sharpen:100,q_auto:best/v1575721992/Earth_Globe_Europe_Africa_Emoji_vs2zm7.png";
@@ -51,6 +52,7 @@ const Home = (props) => {
           </div>
         </div>
       </header>
+      <Resume />
       <Timeline />
     </>
   );
