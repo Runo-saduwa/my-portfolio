@@ -34,7 +34,7 @@ const Home = (props) => {
             >
               <i className="fab fa-github" />
             </a>
-            <a className={`${darkMode ? "darkMode" : null}`} href="#github">
+            <a className={`${darkMode ? "darkMode" : null}`} href="http://linkedin.com/in/peter-saduwa-ogheneruno-24922711a">
               <i className="fab fa-linkedin" />
             </a>
             <a
