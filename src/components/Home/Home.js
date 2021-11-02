@@ -24,7 +24,7 @@ const Home = (props) => {
           <p className={`IntroWords ${darkMode ? "darkMode" : null}`}>
             Popularly known as Runo, I'm a Software Engineer based in Nigeria.
             Welcome to my spot on the web where i showcase projects i've worked
-            on, musings, technical articles i've written and my contibutions to
+            on, musings, technical articles i've written and my contributions to
             the tech community, home and abroad!
           </p>
           <div className={`SocialIcons`}>
