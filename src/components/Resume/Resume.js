@@ -11,7 +11,7 @@ const Resume = (props) => {
             <span className="mobile-date">April 2021 - Present</span>
             <h3 className="job-title">
               Frontend Engineer, DeviHealth Inc. (An end-to-end Healthcare
-              workforce managspanent tool)
+              workforce management tool)
             </h3>
             <p className="job-description">
               <span>
