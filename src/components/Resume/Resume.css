@@ -84,7 +84,7 @@
 }
 .timeline .event p span {
   display: flex;
-  gap: 0 5px;
+  gap: 0 10px;
 }
 
 .timeline .event:last-of-type {
