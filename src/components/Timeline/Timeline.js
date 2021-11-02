@@ -7,7 +7,7 @@ const Timeline = (props) => {
       <div id="timelinex-content" className="timelinex-content">
         <h1 className={`speaking-header`}>🎤 Speaking Activities 🎤 </h1>
         <ul className="timelinex">
-          <li className="event" data-date="May - October">
+          {/* <li className="event" data-date="May - October">
             <span className="mobile-date">May 20th - October 28th</span>
             <h3 className="job-title">
               Introduction to Software Development, O.A. Warri.
@@ -19,7 +19,7 @@ const Timeline = (props) => {
               the end of the program students were able to build modern
               applications with HTML5, CSS3 and JavaScript.
             </p>
-          </li>
+          </li> */}
           <li className="event" data-date="5th October, 2019">
             <span className="mobile-date">5th October, 2019</span>
             <h3 className="job-title">
