@@ -1,16 +1,11 @@
 .portfolioContainer {
-    font-family: "Open sans";
-    width: 90%;
-    margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
 }
 
-
-
 @media (min-width: 700px) {
-    .portfolioContainer {
-        width: 50%;
-        margin: 0 auto;
-    }
-    
-    
+  .portfolioContainer {
+    width: 50%;
+    margin: 0 auto;
+  }
 }

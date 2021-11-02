@@ -6,7 +6,7 @@ import { themeContext } from '../../Context';
  
 const world = "https://res.cloudinary.com/daaubcml6/image/upload/e_sharpen:100,q_auto:best/v1575721992/Earth_Globe_Europe_Africa_Emoji_vs2zm7.png";
 
-const MyImg = "https://res.cloudinary.com/daaubcml6/image/upload/q_auto:best/v1575657812/passport_mmo7ue.jpg";
+const MyImg = "https://res.cloudinary.com/daaubcml6/image/upload/v1635849171/my-image_qnujcu.jpg";
 const Home = (props) => {
 	const { darkMode } = useContext(themeContext);
 
@@ -16,11 +16,11 @@ const Home = (props) => {
 			<div className="HeaderContainer">
 				<img className="MyImg" src={MyImg} alt="my passport" />
 				<h1 className={`Intro ${darkMode ? 'darkMode' : null}`}>
-					Hello <img className="emoji" src={world} alt="world emoji" />, I'm{' '}
-					<span className="highlight">Runo Saduwa</span>.
+					Hey 👋🏾, I'm{' '}
+					<span className="highlight">Runo Saduwa!</span>
 				</h1>
 				<p className={`IntroWords ${darkMode ? 'darkMode' : null}`}>
-				A Fullstack Software Developer based in Nigeria. I solve problems in style using cutting edge web technologies which include but are not limited to React, Expressjs, Nodejs, and SQL/NoSQL databases, while doing these I adhere to industry standards. I use every slight opportunity to give back to the community by speaking at conferences and writing technical articles on my personal blog.
+				Popularly known as Runo, I'm a Software Engineer based in Nigeria. Welcome to my spot on the web where i showcase projects i've worked on, technical articles i've written and finally my contibutions to the tech community, home and abroad!
 				</p>
 				<div className={`SocialIcons`}>
 					<a className={`${darkMode ? 'darkMode' : null}`} href="https://github.com/Runo-saduwa">

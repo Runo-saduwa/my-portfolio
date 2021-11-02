@@ -1,64 +1,62 @@
 .card {
-    width: 100%;
-    margin: 50px 0;
-    text-align: center;
-    border-radius: 5px;
+  width: 100%;
+  margin: 50px 0;
+  text-align: center;
+  border-radius: 5px;
 }
 
 .card h1 {
-    margin: 0;
-    color: var(--color);
-    font-weight: 800;
-    font-size: 0.9rem;
+  margin: 0;
+  color: var(--color);
+  font-weight: 800;
+  font-size: 24px;
 }
 
-.card p  {
-    margin: 10px 0;
-    font-weight: 600;
-    font-size: 0.8rem;
+.card p {
+  margin: 10px 0;
+  font-size: 18px;
+  margin: 10px 15px;
 }
 .card p .darkMode {
-    color: var(--iconColor);
+  color: var(--iconColor);
 }
 
 .imgBox {
-    padding: 0px 0px;
-
+  padding: 0px 0px;
+  margin: 10px 0; 
 }
 .card img {
-    width: 100%;
-    margin: 0 auto;
+  width: 100%;
+  margin: 0 auto;
 }
 .btn-container {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 .project-btn {
-    background: var(--color);
-    text-decoration: none;
-    color: #fff;
-    margin: 5px 15px;
-    padding: 7px 18px;
-    font-size:0.8rem;
-    font-weight: 600;
-    transition: all 0.25s ease 0s;
-    border-radius: 5px;
-    border: solid 1px var(--color);
+  background: var(--color);
+  text-decoration: none;
+  color: #fff;
+  margin: 5px 15px;
+  padding: 7px 18px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: all 0.25s ease 0s;
+  border-radius: 5px;
+  border: solid 1px var(--color);
 }
 .project-btn:hover {
-     background: #fff;
-     color: var(--color);
-    
+  background: #fff;
+  color: var(--color);
 }
 
-
 @media (min-width: 700px) {
-    .card {
-        width: 100%;
-        /* background: var(--projectCard); */
-        text-align: center;
-    }
-    .card img {
-        width: 100%;
-        margin: 0 auto;
-    }
+  .card {
+    width: 100%;
+    /* background: var(--projectCard); */
+    text-align: center;
+  }
+  .card img {
+    width: 100%;
+    margin: 0 auto;
+  }
 }
