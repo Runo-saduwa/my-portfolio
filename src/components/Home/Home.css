@@ -92,7 +92,6 @@ header {
 
   .IntroWords {
     color: var(--iconColor);
-    font-size: 1rem;
     line-height: 1.5;
   }
   .SocialIcons {
