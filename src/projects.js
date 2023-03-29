@@ -1,17 +1,10 @@
 export const projects = [
   {
     id: "#v84",
-    title: "DeviHealth Clinician Dashboard",
-    desc: "DeviHealth Clinician Dashboard built with NextJS, NodeJS, Postgres and friends",
-    link: "https://devi.health/login/clinician",
+    title: "DeviHealth Dashboard",
+    desc: "DeviHealth Dashboard built with NextJS, NodeJS, Postgres and friends",
+    link: "https://beta.devi.health/",
     img: "https://res.cloudinary.com/daaubcml6/image/upload/v1635853192/smartmockups_kvi0qphs_ujbxsa.png",
-  },
-  {
-    id: "684",
-    title: "DeviHealth Blog",
-    desc: "DeviHealth Blog built with NextJS and Strapi CMS",
-    link: "https://devi.health/blog",
-    img: "https://res.cloudinary.com/daaubcml6/image/upload/v1635852489/smartmockups_kvi0bo3e_pqpqq4.png",
   },
   {
     id: "284",

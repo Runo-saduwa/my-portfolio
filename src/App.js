@@ -12,7 +12,6 @@ import Footer from './components/Footer/Footer';
 
 const App = ({ location }) => {
 	const { darkMode } = useContext(themeContext);
-	console.log(darkMode);
 	return (
 		<main className={`App ${darkMode ? 'darkMode' : null}`}>
 			<NavBar />

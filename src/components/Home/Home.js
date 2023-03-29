@@ -5,27 +5,19 @@ import "./Home.css";
 import { themeContext } from "../../Context";
 import Resume from "../Resume/Resume";
 
-const world =
-  "https://res.cloudinary.com/daaubcml6/image/upload/e_sharpen:100,q_auto:best/v1575721992/Earth_Globe_Europe_Africa_Emoji_vs2zm7.png";
-
-const MyImg =
-  "https://res.cloudinary.com/daaubcml6/image/upload/v1635849171/my-image_qnujcu.jpg";
+const MyImg = "https://res.cloudinary.com/daaubcml6/image/upload/v1635849171/my-image_qnujcu.jpg";
 const Home = (props) => {
   const { darkMode } = useContext(themeContext);
-
   return (
     <>
       <header>
         <div className="HeaderContainer">
           <img className="MyImg" src={MyImg} alt="my passport" />
           <h1 className={`Intro ${darkMode ? "darkMode" : null}`}>
-            Hey 👋🏾, I'm <span className="highlight">Runo Saduwa!</span>
+            Hi, I'm <span className="highlight">Runo Saduwa!</span>
           </h1>
           <p className={`IntroWords ${darkMode ? "darkMode" : null}`}>
-            Popularly known as Runo, I'm a Software Engineer based in Nigeria.
-            Welcome to my spot on the web where i showcase projects i've worked
-            on, musings, technical articles i've written and my contributions to
-            the tech community, home and abroad!
+            Professional and product-oriented Front End Engineer with 4+ years of experience working in a variety of fast-paced and highly-ambitious settings. Experience includes leading teams in building and designing beautiful User Interfaces, developing high-quality in-house tools and UI libraries to ease the development and scaling of customer facing  products.
           </p>
           <div className={`SocialIcons`}>
             <a
@@ -40,12 +32,12 @@ const Home = (props) => {
             >
               <i className="fab fa-linkedin" />
             </a>
-            <a
+            {/* <a
               className={`${darkMode ? "darkMode" : null}`}
               href="https://twitter.com/SaduwaRuno"
             >
               <i className="fab fa-twitter" />
-            </a>
+            </a> */}
             <a
               className={`${darkMode ? "darkMode" : null}`}
               href="https://dev.to/runosaduwa"

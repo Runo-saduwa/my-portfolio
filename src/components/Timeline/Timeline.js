@@ -5,7 +5,7 @@ const Timeline = (props) => {
   return (
     <Fragment>
       <div id="timelinex-content" className="timelinex-content">
-        <h1 className={`speaking-header`}>🎤 Speaking Activities 🎤 </h1>
+        <h1 className={`speaking-header`}>Speaking Activities</h1>
         <ul className="timelinex">
           {/* <li className="event" data-date="May - October">
             <span className="mobile-date">May 20th - October 28th</span>
