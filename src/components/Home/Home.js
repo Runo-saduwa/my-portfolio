@@ -17,7 +17,7 @@ const Home = (props) => {
             Hi, I'm <span className="highlight">Runo Saduwa!</span>
           </h1>
           <p className={`IntroWords ${darkMode ? "darkMode" : null}`}>
-            Professional and product-oriented Front End Engineer with 4+ years of experience working in a variety of fast-paced and highly-ambitious settings. Experience includes leading teams in building and designing beautiful User Interfaces, developing high-quality in-house tools and UI libraries to ease the development and scaling of customer facing  products.
+            Professional and product-oriented Front End Engineer with 4+ years of experience working in a variety of fast-paced and highly-ambitious settings. Welcome to my little space on the internet!
           </p>
           <div className={`SocialIcons`}>
             <a
