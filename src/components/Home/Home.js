@@ -5,7 +5,7 @@ import "./Home.css";
 import { themeContext } from "../../Context";
 import Resume from "../Resume/Resume";
 
-const MyImg = "https://res.cloudinary.com/daaubcml6/image/upload/v1635849171/my-image_qnujcu.jpg";
+const MyImg = "https://res.cloudinary.com/daaubcml6/image/upload/v1680249785/me_eqmwle.jpg";
 const Home = (props) => {
   const { darkMode } = useContext(themeContext);
   return (
